@@ -1,0 +1,172 @@
+@-moz-document domain("kayako.com") {
+html,
+input {
+    background: black;
+    color: #ba9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+div[class*="ko-text-editor_mode-selector__root"] {
+    color: #ba9;
+}
+/* login screen profile icon thing is an image with bright white. */
+div[class*="login-agent__image"] {
+    filter: invert(0.8);
+}
+div[class*="ko-tab-strip_tab__tab"],
+div[class*="ko-agent-dropdown__trigger"],
+/* login screen box and forms beneath it */
+div[class*="login-agent__box"],
+form[class*="login-agent__"],
+div[class*="ko-text-editor__dropdownList"],
+div[class*="ko-timeline"][class*="list_activity_large"],
+div[class*="ko-pinned-notes__sandbox-trigger"],
+div[class*="ko-pinned-notes__trigger-text"],
+div[class*="ko-time-tracking__dropdown"],
+div[class*="ko-time-tracking__time-entry"],
+div[class*="ko-time-tracking__time-input"],
+div[class*="ko-typing-xxxxxxxxxxxxxxxxxxx"] {
+    color: #ba9;
+    background: none;
+}
+
+div[class*="ko-checkbox__checkbox_"] {
+    background: #332;
+}
+div[class*="ko-cases-list_sidebar_item"],
+div[class*="ko-cases-list_sidebar__suspended-mails"],
+span[class*="ko-tab-strip_tab_label__label"],
+div[class*="login-agent__login-actions"] span,
+span[class*="ko-timeline"][class*="list_activity_large__large-activity-text"],
+input[class*="ko-time-tracking__input"] {
+    color: #ba9;
+}
+/* links */
+a,
+div[class*="login-agent__login-actions"] a,
+.timeline-link {
+    color: #59d;
+}
+div[class*="ko-tab-strip_tab__active-tab"],
+a[class*="ko-cases-list_sidebar_item"].active:not(.ember-transitioning-out),
+a[class*="ko-cases-list_sidebar__item"].active:not(.ember-transitioning-out),
+a[class*="ko-cases-list_sidebar__item"].ember-transitioning-in:not(.ember-transitioning-out) {
+    background: #033;
+}
+a[class*="ko-cases-list_sidebar_item"]:hover,
+a[class*="ko-cases-list_sidebar__item"]:hover,
+tr[class*="ko-table_row__container"]:hover {
+    background: #320;
+}
+div[class*="ko-tab-strip_tab__active-tab"] span[class*="ko-tab-strip_tab_label__label"],
+div[class*="ko-text-editor_mode-selector__active"] {
+    color: #eca;
+}
+
+div[class*="ko-timeline-"][class*="_list_item__post_"]:hover {
+    background: rgba(25, 25, 25, 0.125);
+}
+span[class*="ko-timeline-"][class*="_list_days__day-separator"],
+div[class*="ko-timeline-"][class*="_list_days__day-separator"]::before {
+    background: #033;
+}
+.fr-box.fr-basic .fr-element {
+    color: #dca;
+}
+/* the bar showing what you’re replying to */
+div[class*="ko-case-content__in-reply-to"] {
+    background: #005;
+}
+/* the border around the message composition box when it is focused */
+div[class*="ko-text-editor"][class*="has-focus"] {
+    border-color: #99a;
+    box-shadow: #445 0 0 0 2px;
+}
+/* the text editor when composing a note should be yellow */
+div[class*="ko-text-editor__is-note"],
+/* and the note itself should also hav ea yellow background */
+div[class*="ko-timeline-"][class*="list_item__note_"] {
+    background: #110;
+}
+/* the border around the message composition box when it is focused and is a note */
+div[class*="ko-text-editor__container"][class*="has-focus"][class*="ko-text-editor__note-container"] {
+    border-color: #aa0;
+    box-shadow: #330 0 0 0 2px;
+}
+/* the container for popups like the bulleted list thing */
+div[class*="ko-layout_popup-with-arrow"] {
+    /* cannot be transparent because needs to cover other things, a popup */
+    background: black;
+}
+div[class*="ko-power-select-triggers_chevron__trigger"],
+div[class*="ko-feed_item_menu"] {
+    background: none;
+    border: 1px solid silver;
+}
+
+/* conversation sidebar */
+div[class*="ko-agent-content_layout__sidebar"],
+
+div[class*="ko-user-cases__sandbox"],
+div[class*="ko-user-cases__trigger"],
+
+div[class*="ko-identities__container"],
+div[class*="ko-info-bar_field"],
+
+div[class*="ko-case-content_info-block__container"] {
+    background: none;
+    color: #ba9;
+}
+div[class*="ko-info-bar_item__container"]:hover,
+div[class*="ko-identities_identity__trigger"]:hover {
+    background: #005;
+}
+div[class*="ko-select_multiple_pill__pill"],
+div[class*="ko-select_multiple_pill__pill"]:hover {
+    background: #111;
+    box-shadow: none;
+    color: #ba9;
+}
+
+div.ember-basic-dropdown-content {
+    background: black;
+    color: #ba9;
+}
+li.ember-power-select-option[role=option],
+li.ember-power-select-option[role=option] > * {
+    color: #ba9;
+}
+
+/* BEGIN search stuff */
+div[class*="ko-universal-search__containerAbsolute"] {
+    background: black;
+}
+div[class*="ko-universal-search__overlay"] {
+    background: rgba(0, 0, 0, 0.6);
+}
+div[class*="ko-universal-search__icon-container"] > div > svg {
+    filter: invert();
+}
+li[class*="ko-universal-search_result"],
+div[class*="ko-universal-search_help-block"] {
+    background: none;
+}
+li[class*="ko-universal-search_result__is-active"] {
+    background: #033;
+}
+div[class*="ko-universal-search_result-see-more__button"] {
+    background: linear-gradient(-180deg, rgba(0, 0, 0, 0.5) 0, #000 100%);
+}
+a[class*="ko-universal-search_result__link"],
+div[class*="ko-universal-search_result_user__"] {
+    color: inherit;
+}
+div[class*="ko-universal-search__fadeOut"] {
+    background: linear-gradient(-180deg,rgba(0,0,0,0) 0,#000 100%);
+}
+/* END search stuff */
+
+}
