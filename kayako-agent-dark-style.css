@@ -1,4 +1,7 @@
 @-moz-document domain("kayako.com") {
+/*
+ * https://github.com/binki/binki-kayako-dark-style
+ */
 html,
 input {
     background: black;
